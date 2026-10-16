@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Pixelify+Sans:wght@400..700&display=swap');
+
+body{
+    background-image: url(aguaviva.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    border-radius: 3px;
+    border: none;
+    height: 50px;
+    width: 100px;
+    font-size: 35px;
+    
+}
+
+.imagem {
+    width: 350px;
+    height: 350px;
+    background-image: url(mão.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.escuro {
+    background-image: url(teia.jpg); color: white;
+}
